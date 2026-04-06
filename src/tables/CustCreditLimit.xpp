@@ -1,0 +1,14 @@
+table CustCreditLimit
+{
+    CustAccount CustomerAccount;
+    Name CustomerName;
+    real CreditLimit;
+    real CurrentBalance; 
+    real AvailableCredit; 
+    TransDate LastTransactionDate;
+    TransDate CreatedDate;
+    RiskLevel RiskLevel;
+    int PaymentDelayDays; 
+    real OverdueAmount;
+    real CreditUtilizationPercent;
+}
