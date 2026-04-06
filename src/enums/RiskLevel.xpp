@@ -1,0 +1,6 @@
+enum RiskLevel
+{
+    Low,
+    Medium,
+    High
+}
